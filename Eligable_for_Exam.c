@@ -11,7 +11,7 @@
  	scanf("%f", &marks);
 
 
- if(attendance >=12 &marks >=40){
+ if(attendance >=12 &&marks >=40){
  		attended = 0.75 * attendance;
  	printf("Your attendance is: %.2f \n", attended);
  	printf("Your scored:%.2f\n", marks);
@@ -26,4 +26,5 @@
   
 	 
 	 return 0;
+
  }
